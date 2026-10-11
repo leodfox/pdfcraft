@@ -769,7 +769,7 @@ impl Protection {
         if self.algorithm != pdfcraft_cos::Algorithm::Aes256
             && [&self.open_password, &self.permissions_password].into_iter().flatten().any(|p| p.chars().any(|c| !(' '..='~').contains(&c)))
         {
-            return bad("this compatibility level supports only plain ASCII passwords; use AES-256 (Acrobat X and later)");
+            return bad("this compatibility level supports only plain ASCII passwords; use AES-256 (PDF 1.7 and later)");
         }
         Ok(())
     }

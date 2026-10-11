@@ -61,7 +61,7 @@
 	Fit to width	Szélességhez igazítás
 	Display theme	Megjelenítési téma
 	Side panels	Oldalsó panelek
-	Enable Acrobat JavaScript	Acrobat JavaScript engedélyezése
+	Enable PDF JavaScript	PDF JavaScript engedélyezése
 	OK	OK
 	Join our Discord	Csatlakozás a Discordhoz
 	Close	Bezárás
@@ -123,18 +123,18 @@
 	Next page	Következő oldal
 	Previous page	Előző oldal
 	Current page — type a page number or label (such as iv) and press Enter	Aktuális oldal — írj be egy oldalszámot vagy címkét (például iv), majd nyomd meg az Entert
-	Welcome to PdfCraft	Üdvözöljük a PdfCraftban
+	Welcome to Ardoise PDF	Üdvözöljük a PdfCraftban
 	An open-source PDF workbench — local, private, and scriptable.	Nyílt forráskódú PDF-munkapad — helyi, privát és parancsfájlokkal vezérelhető.
-	Join the ArtCraft community	Csatlakozz az ArtCraft közösséghez
+	Join the Ardoise community	Csatlakozz az Ardoise közösséghez
 	Get help, share feedback and follow development on Discord.	Kérj segítséget, oszd meg a véleményed, és kövesd a fejlesztést a Discordon.
 	Recommended tools	Ajánlott eszközök
 	Use now	Használat most
 	Open file	Fájl megnyitása
 	Recent	Legutóbbiak
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	A PdfCraftban megnyitott fájlok itt jelennek meg. Húzz ide egy PDF-et a megnyitáshoz.
+	Files you open in Ardoise PDF appear here. Drop a PDF anywhere to open it.	A PdfCraftban megnyitott fájlok itt jelennek meg. Húzz ide egy PDF-et a megnyitáshoz.
 	Privacy	Adatvédelem
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	A PdfCraft offline működik. Nincs telemetria, nincs fiók, és nincs felhőfeldolgozás, amíg nem adsz hozzá szolgáltatót.
-	Scripts run in a sandbox without file or network access. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	A szkriptek homokozóban futnak, fájl- és hálózat-hozzáférés nélkül. Kikapcsolt JavaScript mellett az Acrobat szabványos formázó, ellenőrző és számoló függvényei továbbra is működnek.
+	Ardoise PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	A Ardoise PDF offline működik. Nincs telemetria, nincs fiók, és nincs felhőfeldolgozás, amíg nem adsz hozzá szolgáltatót.
+	Scripts run in a sandbox without file or network access. With JavaScript off, PDF's standard format, validate and calculate functions still work.	A szkriptek homokozóban futnak, fájl- és hálózat-hozzáférés nélkül. Kikapcsolt JavaScript mellett az PDF szabványos formázó, ellenőrző és számoló függvényei továbbra is működnek.
 	Back to all tools	Vissza az összes eszközhöz
 	Close panel	Panel bezárása
 	View less	Kevesebb megjelenítése
@@ -267,12 +267,12 @@
 	Split document…	Dokumentum felosztása…
 	Number pages…	Oldalak számozása…
 	Keyboard shortcuts	Billentyűparancsok
-	Join the ArtCraft Discord	Csatlakozás az ArtCraft Discordhoz
-	PdfCraft web page	A PdfCraft weblapja
-	PdfCraft on GitHub	PdfCraft a GitHubon
-	ArtCraft website	Az ArtCraft webhelye
+	Join the Ardoise Discord	Csatlakozás az Ardoise Discordhoz
+	Ardoise PDF web page	A Ardoise PDF weblapja
+	Ardoise PDF on GitHub	Ardoise PDF a GitHubon
+	Ardoise website	Az Ardoise webhelye
 	Check for updates…	Frissítések keresése…
-	About PdfCraft	A PdfCraftról
+	About Ardoise PDF	A PdfCraftról
 	Export a PDF	PDF exportálása
 	Export to	Exportálás ide
 	Microsoft Word (.docx)	Microsoft Word (.docx)
@@ -714,9 +714,9 @@
 	Check for updates	Frissítések keresése
 	No check has run yet.	Még nem futott ellenőrzés.
 	Checking for a newer version…	Újabb verzió keresése…
-	PdfCraft {v} is available.	Elérhető a PdfCraft {v}.
+	Ardoise PDF {v} is available.	Elérhető a Ardoise PDF {v}.
 	You have version {c}. Download the new version from its release page.	A jelenlegi verzió: {c}. Töltsd le az újat a kiadási oldaláról.
-	PdfCraft {c} is up to date.	A PdfCraft {c} naprakész.
+	Ardoise PDF {c} is up to date.	A Ardoise PDF {c} naprakész.
 	Couldn't check for updates: {e}	A frissítések keresése nem sikerült: {e}
 	You have version {c}. All releases are listed at {page}.	A jelenlegi verzió: {c}. Minden kiadás itt található: {page}.
 	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	A GitHubtól kéri le a legújabb kiadást. Semmi sem töltődik le vagy települ automatikusan.
@@ -823,8 +823,8 @@
 	No changes allowed	Semmilyen módosítás nem engedélyezett
 	Annotations, form fill-in, and digital signatures	Széljegyzetek, űrlapkitöltés és digitális aláírások
 	Form fill-in and digital signatures	Űrlapkitöltés és digitális aláírások
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	A kulcs a macOS Kulcskarikában van, amely megkérdezheti, engedélyezed-e a PdfCraftnak a használatát.
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	A kulcs a Windows tanúsítványtárolójában van, amely megkérdezheti, engedélyezed-e a PdfCraftnak a használatát.
+	The key is in the macOS Keychain, which may ask to allow Ardoise PDF to use it.	A kulcs a macOS Kulcskarikában van, amely megkérdezheti, engedélyezed-e a PdfCraftnak a használatát.
+	The key is in the Windows certificate store, which may ask to allow Ardoise PDF to use it.	A kulcs a Windows tanúsítványtárolójában van, amely megkérdezheti, engedélyezed-e a PdfCraftnak a használatát.
 	Digital ID password	A digitális azonosító jelszava
 	Back	Vissza
 	Validate all	Összes ellenőrzése
@@ -1181,7 +1181,7 @@
 	Searchable Image (Exact)	Kereshető kép (pontos)
 	Adds invisible text over each word; the page image is not changed	Láthatatlan szöveget helyez minden szóra; az oldalkép nem változik
 	Downsample to	Feloldás csökkentése erre
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	A szövegfelismerés nincs telepítve: hiányoznak a modellfájljai. Telepítsd újra a PdfCraftot, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára.
+	Text recognition isn't installed: its model files are missing. Reinstall Ardoise PDF, or set PDFCRAFT_MODELS to the folder that holds them.	A szövegfelismerés nincs telepítve: hiányoznak a modellfájljai. Telepítsd újra a PdfCraftot, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára.
 	Settings	Beállítások
 	Optional	Nem kötelező
 	Planned · {m}	Tervezett · {m}
@@ -1302,10 +1302,10 @@
 	Weak	Gyenge
 	Advanced Options {chevron}	Speciális beállítások {chevron}
 	Compatibility	Kompatibilitás
-	Acrobat X and later (256-bit AES)	Acrobat X és újabb (256 bites AES)
-	Acrobat 7.0 and later (128-bit AES)	Acrobat 7.0 és újabb (128 bites AES)
-	Acrobat 5.0 and later (128-bit RC4)	Acrobat 5.0 és újabb (128 bites RC4)
-	Acrobat 3.0 and later (40-bit RC4)	Acrobat 3.0 és újabb (40 bites RC4)
+	PDF 1.7 and later (256-bit AES)	PDF 1.7 és újabb (256 bites AES)
+	PDF 1.6 and later (128-bit AES)	PDF 1.6 és újabb (128 bites AES)
+	PDF 1.4 and later (128-bit RC4)	PDF 1.4 és újabb (128 bites RC4)
+	PDF 1.2 and later (40-bit RC4)	PDF 1.2 és újabb (40 bites RC4)
 	Encrypt	Titkosítás
 	All document contents	A dokumentum teljes tartalma
 	All document contents except metadata	A dokumentum teljes tartalma, a metaadatok kivételével
@@ -1324,7 +1324,7 @@
 	Anyone opening the document will need this password. It's applied when you save.	A dokumentumot megnyitóknak erre a jelszóra lesz szükségük. Mentéskor lép életbe.
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	A dokumentum jelszó nélkül nyílik meg; ez a jelszó a korlátozások módosításához kell. Mentéskor lép életbe.
 	Recover unsaved documents?	Visszaállítod a nem mentett dokumentumokat?
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	A PdfCraft nem szabályosan állt le. Ezekben a dokumentumokban automatikusan mentett módosítások voltak:
+	Ardoise PDF didn't shut down normally. These documents had changes that were autosaved:	A Ardoise PDF nem szabályosan állt le. Ezekben a dokumentumokban automatikusan mentett módosítások voltak:
 	just now	épp most
 	{n} min ago	{n} perce
 	{n} h ago	{n} órája
@@ -1482,10 +1482,10 @@
 	On the web, open or drop an image to convert it	A weben nyiss meg vagy húzz ide egy képet a konvertáláshoz
 	Couldn't optimize the file: {e}	A fájlt nem sikerült optimalizálni: {e}
 	Couldn't write {path}: {e}	Nem sikerült írni ide: {path}: {e}
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	Az űrlap ide kéri a beküldést: {u}; a PdfCraft nem küld űrlapadatot. Mentsd a dokumentumot, hogy megmaradjanak a beírásaid.
+	The form asks to be submitted to {u}; Ardoise PDF doesn't send form data. Save the document to keep your entries.	Az űrlap ide kéri a beküldést: {u}; a Ardoise PDF nem küld űrlapadatot. Mentsd a dokumentumot, hogy megmaradjanak a beírásaid.
 	{s} actions run in the JavaScript engine (M6)	{s} műveletek a JavaScript-motorban futnak (M6)
 	{name}: the {other} action isn't supported yet	{name}: ez a művelet még nem támogatott ({other})
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} ide küldi az űrlapot: {url}; a PdfCraft nem küld űrlapadatot. Mentsd a dokumentumot, hogy megmaradjanak a beírásaid.
+	{name} submits the form to {url}; Ardoise PDF doesn't send form data. Save the document to keep your entries.	{name} ide küldi az űrlapot: {url}; a Ardoise PDF nem küld űrlapadatot. Mentsd a dokumentumot, hogy megmaradjanak a beírásaid.
 	Export stopped: {e}	Az exportálás leállt: {e}
 	Exported 1 image	1 kép exportálva
 	Exported {n} images	{n} kép exportálva
@@ -1585,7 +1585,7 @@
 	Couldn't open {name}: {e}	{name} megnyitása nem sikerült: {e}
 	Couldn't read {name}: {e}	{name} olvasása nem sikerült: {e}
 	Portable mode is off: {folder} can't be written ({error}). Settings are kept in your user folder instead.	A hordozható mód ki van kapcsolva: {folder} nem írható ({error}). A beállítások helyette a felhasználói mappádban maradnak.
-	PdfCraft is drawing without a graphics processor, so it may be slow. Updating the graphics driver may help.	A PdfCraft grafikus processzor nélkül rajzol, ezért lassú lehet. A grafikus illesztőprogram frissítése segíthet.
+	Ardoise PDF is drawing without a graphics processor, so it may be slow. Updating the graphics driver may help.	A Ardoise PDF grafikus processzor nélkül rajzol, ezért lassú lehet. A grafikus illesztőprogram frissítése segíthet.
 	Couldn't save: {e}	A mentés nem sikerült: {e}
 	Downloading attachments on the web arrives with M3.10 ({n} bytes ready)	A mellékletek letöltése a weben az M3.10-zel érkezik ({n} bájt kész)
 	`{command}` {when}	`{command}` {when}
@@ -1653,8 +1653,8 @@
 	Signed and all signatures are valid.	Aláírva, és minden aláírás érvényes.
 	At least one signature has problems.	Legalább egy aláírásnak problémája van.
 	This document is secured. Some changes are restricted by its security settings.	Ez a dokumentum védett. Egyes módosításokat a biztonsági beállításai korlátoznak.
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	Ez egy dinamikus XFA-űrlap, amelyet a PdfCraft még nem tud megjeleníteni. Amit látsz, a fájl helyőrző oldala.
-	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	Ez az űrlap XFA-adatokat is tartalmaz, amelyeket a PdfCraft még nem olvas. Kitöltheted a mezőit, de az Acrobat helyettük az XFA-értékeket mutathatja.
+	This is a dynamic XFA form, which Ardoise PDF can't display yet. What you see is the file's placeholder page.	Ez egy dinamikus XFA-űrlap, amelyet a Ardoise PDF még nem tud megjeleníteni. Amit látsz, a fájl helyőrző oldala.
+	This form also contains XFA data, which Ardoise PDF doesn't read yet. You can fill its fields, but other viewers may show the XFA values instead.	Ez az űrlap XFA-adatokat is tartalmaz, amelyeket a Ardoise PDF még nem olvas. Kitöltheted a mezőit, de az PDF helyettük az XFA-értékeket mutathatja.
 	This document contains {n} interactive form fields.	Ez a dokumentum {n} interaktív űrlapmezőt tartalmaz.
 	This file was damaged and has been repaired. Saving keeps the repaired version.	Ez a fájl sérült volt, és javítottuk. A mentés megtartja a javított változatot.
 	Dismiss	Elvetés
@@ -1703,7 +1703,7 @@
 	there are no pages to print	nincs nyomtatható oldal
 	the document has no tags	a dokumentumnak nincs címkéje
 	{0}: {1}	{0}: {1}
-	the text recognition models are not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them)	a szövegfelismerés modelljei nincsenek telepítve (telepítsd újra a PdfCraftot, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára)
+	the text recognition models are not installed (reinstall Ardoise PDF, or set PDFCRAFT_MODELS to the folder that holds them)	a szövegfelismerés modelljei nincsenek telepítve (telepítsd újra a PdfCraftot, vagy állítsd a PDFCRAFT_MODELS változót az őket tartalmazó mappára)
 	the image is empty	a kép üres
 	this file isn't XFDF, FDF, XML or text form data	ez a fájl nem XFDF, FDF, XML vagy szöveges űrlapadat
 	nothing in the file matches this document	a fájlban semmi sem illeszkedik ehhez a dokumentumhoz
@@ -1896,7 +1896,7 @@
 	Open email app	E-mail alkalmazás megnyitása
 	Open link	Hivatkozás megnyitása
 	Open this web page?	Megnyitod ezt a weboldalt?
-	Scripts run in a sandbox without file or network access. A script that asks to open a web page needs your permission first. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	A szkriptek homokozóban futnak, fájl- és hálózat-hozzáférés nélkül. Ha egy szkript weboldalt akar nyitni, előbb az engedélyed kell. Kikapcsolt JavaScript mellett az Acrobat szabványos formázó, ellenőrző és számoló függvényei továbbra is működnek.
+	Scripts run in a sandbox without file or network access. A script that asks to open a web page needs your permission first. With JavaScript off, PDF's standard format, validate and calculate functions still work.	A szkriptek homokozóban futnak, fájl- és hálózat-hozzáférés nélkül. Ha egy szkript weboldalt akar nyitni, előbb az engedélyed kell. Kikapcsolt JavaScript mellett az PDF szabványos formázó, ellenőrző és számoló függvényei továbbra is működnek.
 	Sign yourself	Saját kezű aláírás
 	Used when opening PDFs. An explicit launch or control mode takes precedence for the session.	PDF-ek megnyitásakor érvényes. A kifejezetten választott indítási vagy vezérlőmód a munkamenetre felülírja.
 	Write this email?	Megírod ezt az e-mailt?
@@ -2058,7 +2058,7 @@ comment menu	Edit	Szerkesztés
 	Redo {action}	{action} megismétlése
 signature pad	Type	Gépelés
 action wizard	Start	Indítás
-	Reopen the files that were open when PdfCraft last closed	A PdfCraft legutóbbi bezárásakor megnyitott fájlok újranyitása
+	Reopen the files that were open when Ardoise PDF last closed	A Ardoise PDF legutóbbi bezárásakor megnyitott fájlok újranyitása
 	Clear Recent Files	Legutóbbi fájlok listájának törlése
 	Remove from Recent	Eltávolítás a legutóbbiak közül
 	Remove {name} from Recent	{name} eltávolítása a legutóbbiak közül
@@ -2071,8 +2071,8 @@ action wizard	Start	Indítás
 	A link	Egy hivatkozás
 	A button	Egy gomb
 	A script	Egy szkript
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	{who} ebben a dokumentumban olyan címet próbált megnyitni, amelyet a PdfCraft nem nyit meg: {e}.
-	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} ebben a dokumentumban olyan címet próbált megnyitni, amelyet a PdfCraft nem nyit meg: {e}. Dokumentumokból csak webes (http, https) és e-mail (mailto) hivatkozások nyílnak meg.
+	{who} in this document tried to open an address Ardoise PDF won't open: {e}.	{who} ebben a dokumentumban olyan címet próbált megnyitni, amelyet a Ardoise PDF nem nyit meg: {e}.
+	{who} in this document tried to open an address Ardoise PDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} ebben a dokumentumban olyan címet próbált megnyitni, amelyet a Ardoise PDF nem nyit meg: {e}. Dokumentumokból csak webes (http, https) és e-mail (mailto) hivatkozások nyílnak meg.
 	Another file dialog is still open. Finish with it first.	Egy másik fájlpárbeszédablak még nyitva van. Előbb fejezd be azt.
 	Couldn't show the file picker. Please try again.	Nem sikerült megjeleníteni a fájlválasztót. Próbáld újra.
 	The document changed while you were choosing a file, so nothing was changed.	A dokumentum megváltozott, amíg fájlt választottál, ezért semmi sem módosult.
