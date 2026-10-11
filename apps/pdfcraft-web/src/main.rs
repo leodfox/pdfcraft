@@ -74,6 +74,15 @@ fn main() {
                             }
                             ctx.request_repaint();
                         });
+                        // Every other single-file export (images, text, forms data...) goes to the host too (`export: true`).
+                        pdfcraft_ui_egui::set_export_hook(Box::new(|name, bytes| bridge::post_saved(name, bytes)));
+                        let mut last_dirty = None;
+                        app.host_dirty = Some(Box::new(move |dirty: bool| {
+                            if last_dirty != Some(dirty) {
+                                last_dirty = Some(dirty);
+                                bridge::post_dirty(dirty);
+                            }
+                        }));
                         app.host_save = Some(Box::new(|name: &str, bytes: &[u8], _save_as: bool| {
                             let name = if name.to_ascii_lowercase().ends_with(".pdf") { name.to_string() } else { format!("{name}.pdf") };
                             if bridge::post_saved(&name, bytes) { Ok(()) } else { Err("couldn't deliver the file to the host page".to_string()) }

@@ -679,9 +679,33 @@ fn short_name(path: &str) -> String {
     std::path::Path::new(path).file_name().map(|n| n.to_string_lossy().into_owned()).unwrap_or_else(|| path.to_string())
 }
 
-/// Offer bytes as a browser download.
+#[cfg(target_arch = "wasm32")]
+pub type ExportHook = Box<dyn Fn(&str, &[u8]) -> bool>;
+
+#[cfg(target_arch = "wasm32")]
+thread_local! {
+    /// Set by the web app when an embedding page asked for exports (Ardoise bridge): returns true when it took the file.
+    static EXPORT_HOOK: std::cell::RefCell<Option<ExportHook>> = const { std::cell::RefCell::new(None) };
+}
+
+/// Route single-file exports to the embedding page instead of a browser download.
+#[cfg(target_arch = "wasm32")]
+pub fn set_export_hook(hook: ExportHook) {
+    EXPORT_HOOK.with(|h| *h.borrow_mut() = Some(hook));
+}
+
+/// Deliver an export: to the embedding page when it asked for exports, else a browser download.
 #[cfg(target_arch = "wasm32")]
 pub(crate) fn download(name: &str, bytes: &[u8]) -> Result<(), String> {
+    if EXPORT_HOOK.with(|h| h.borrow().as_ref().is_some_and(|f| f(name, bytes))) {
+        return Ok(());
+    }
+    download_raw(name, bytes)
+}
+
+/// Offer bytes as a browser download (multi-file exports always use this).
+#[cfg(target_arch = "wasm32")]
+pub(crate) fn download_raw(name: &str, bytes: &[u8]) -> Result<(), String> {
     use wasm_bindgen::JsCast;
     let err = |e: wasm_bindgen::JsValue| format!("{e:?}");
     let array = js_sys::Uint8Array::from(bytes);

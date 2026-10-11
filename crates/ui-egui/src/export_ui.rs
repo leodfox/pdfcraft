@@ -271,7 +271,7 @@ impl PdfCraftApp {
                 min_side,
                 pages,
                 stem,
-                |name, bytes| crate::editing::download(name, &bytes),
+                |name, bytes| crate::editing::download_raw(name, &bytes),
                 &status,
                 crate::i18n::current(),
             );

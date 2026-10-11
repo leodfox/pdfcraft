@@ -543,7 +543,8 @@ impl PdfCraftApp {
         {
             let _ = title;
             for (name, bytes) in &named {
-                if let Err(e) = crate::editing::download(name, bytes) {
+                let one = named.len() == 1;
+                if let Err(e) = if one { crate::editing::download(name, bytes) } else { crate::editing::download_raw(name, bytes) } {
                     self.notify_fmt("Couldn't download {name}: {e}", &[("name", name), ("e", &e.to_string())]);
                     return;
                 }
